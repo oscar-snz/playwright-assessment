@@ -9,6 +9,8 @@ class CartComponent {
         this.goToCart = "a[class='action showcart']";
         this.cartModal = '.block.block-minicart.ui-dialog-content.ui-widget-content';
         this.checkoutButton = "button[id='top-cart-btn-checkout']";
+        this.item = "//strong[@class='product-item-name']/a";
+        this.itemsInCart = "span[class='count']";
     }
 
     // Method to search for an item

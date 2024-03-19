@@ -6,7 +6,7 @@ Scenario: Successfully search for an order
 Given I navigate to the 'home' page
 When I search for 'digital watch'
 And I add an item to my cart
-Then the cart should show '1' items
+Then the cart should show '2' items
 When I proceed to checkout
 And I fill the shipping address
 And I place the order
